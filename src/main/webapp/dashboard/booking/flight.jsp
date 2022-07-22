@@ -94,9 +94,7 @@
                                     </span>
                     </td>
                     <td>
-<%--                        <%--%>
-<%--                            if (celebration.getCelebrationCostList().isEmpty()) {--%>
-<%--                        %>--%>
+
                         <span class="table-remove">
                                         <form action="deleteFlight" method="POST">
                                             <button type="submit" class="btn btn-danger btn-rounded btn-sm my-0">

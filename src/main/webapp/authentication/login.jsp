@@ -11,19 +11,19 @@
         <h2>Login</h2>
         <form action="authenticate" method="post">
             <div>
+                <input id="username" name="username" type="text"><br />
                 <label for="username">Username</label>
-                <input id="username" name="username" type="text" placeholder="Username">
             </div>
             <div>
+                <input id="password" name="password" type="password"><br />
                 <label for="password">Password</label>
-                <input id="password" name="password" type="password" placeholder="Password">
             </div>
             <div>
                 <button type="submit">Log in</button>
             </div>
             </form>
     </div>
-
+<hr />
         <div>
             <h2>Not a member yet?</h2>
             <a href="registration">Join now</a>

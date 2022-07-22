@@ -2,6 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/register.css" />
     <title>Register</title>
 </head>
 <body>
@@ -9,37 +10,37 @@
     <h3>Registration Form</h3>
     <form action="register" method="post" style="border:1px solid #ccc; padding: 20px;">
             <div>
+                <input id="name" required type="text" name="name" /><br />
                 <label for="name" id="fn">First name</label>
+            </div>
+
+            <div>
+                <input id="surname" required type="text" name="surname" /><br />
                 <label for="surname" id="ln">Last name</label>
             </div>
 
             <div>
-                <input id="name" required type="text" name="name"><br/>
-                <input id="surname" required type="text" name="surname"><br/>
+                <input id="username" required type="text" name="username" /><br />
+                <label for="username">Username</label>
             </div>
 
             <div>
-                <label for="username">Username</label>
+                <input id="password" required type="password" name="password" /><br />
                 <label for="password">Password</label>
             </div>
 
             <div>
-                <input id="username" required type="text" name="username"><br/>
-                <input id="password" required type="password" name="password"><br/>
-            </div>
-
-            <div>
+                <input id="email" required type="text" name="email" /><br />
                 <label for="email">Email</label>
-                <label for="country">Country</label>
             </div>
 
             <div>
-                <input id="email" required type="text" name="email"><br/>
                     <select id="country" required name="country">
                         <c:forEach items="${countries}" var="country">
                             <option>${country}</option>
                         </c:forEach>
                 </select><br/><br/>
+                <label for="country">Country</label>
             </div>
 
         <div>
