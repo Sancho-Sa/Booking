@@ -72,8 +72,9 @@
                 <tr>
                     <th class="text-center">Edit</th>
                     <th class="text-center">Delete</th>
-                    <th class="text-center">Celebration name</th>
-                    <th class="text-center">Celebration date</th>
+                    <th class="text-center">Departure Airport</th>
+                    <th class="text-center">Arrival Airport</th>
+                    <th class="text-center">Departure Date</th>
                     <th class="text-center">User creator</th>
                 </tr>
                 </thead>
